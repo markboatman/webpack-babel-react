@@ -59,6 +59,8 @@ module.exports = {
     static: {
       directory: path.join(__dirname, 'public'),
     },
+    // This if we have multiple pages, have not tested this
+    historyApiFallback: true,
   },
   // I added this, Andrew does not have this
   mode: 'development',

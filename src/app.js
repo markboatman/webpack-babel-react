@@ -15,7 +15,8 @@ console.log(`6 times 4 is ${multiply(6, 4)}`);
 const jsxTemplate = (
   <div class="main-div" id="divId">
     <p class="main-p">
-      This is JSX from app.js new with a div and the new render setup
+      This is JSX from app.js with styling from file styles.css that was split
+      out by webpack
     </p>
   </div>
 );

@@ -9,7 +9,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-server": "webpack serve --open --config webpack.dev.config.js",
     "build-prod": "webpack --config webpack.prod.config.js",
-    "default-dev-server": "webpack-dev-server"
+    "default-dev-server": "webpack-dev-server",
+    "start": "node index.js",
+    "heroku-postbuild": "npm run build-prod"
   },
   "keywords": [],
   "author": "",
@@ -31,6 +33,7 @@
     "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
+    "express": "^4.17.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "validator": "^13.7.0"
