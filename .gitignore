@@ -2,4 +2,6 @@ public/bundle.js
 public/bundle.js.map
 public/styles.css
 public/styles.css.map
+# in case we use babel compiler directly from package.json script
+public/scripts
 node_modules
