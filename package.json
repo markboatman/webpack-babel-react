@@ -10,7 +10,7 @@
     "dev-server": "webpack serve --open --config webpack.dev.config.js",
     "build-prod": "webpack --config webpack.prod.config.js",
     "default-dev-server": "webpack-dev-server",
-    "start": "node index.js",
+    "start": "node server/server.js",
     "heroku-postbuild": "npm run build-prod"
   },
   "keywords": [],
