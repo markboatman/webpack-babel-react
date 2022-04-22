@@ -1,0 +1,9 @@
+.main-div {
+  border: 2px solid green;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.main-p {
+  color: red;
+}
