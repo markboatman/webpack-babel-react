@@ -5,4 +5,4 @@ public/styles.css.map
 # in case we use babel compiler directly from package.json script
 public/scripts
 node_modules
-serve-app-from-express.md
+app-serve-from-express.md
